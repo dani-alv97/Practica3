@@ -59,8 +59,13 @@
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-to-slf4j</artifactId>
+            <version>2.17.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
-            <version>2.17.0</version> <!-- Actualiza a una versión segura -->
+            <version>2.17.0</version>
         </dependency>
     </dependencies>
 
